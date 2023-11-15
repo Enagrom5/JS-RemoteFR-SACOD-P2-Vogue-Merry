@@ -16,28 +16,28 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: "/JS-RemoteFR-SACOD-P2-Vogue-Merry/",
         element: <Accueil />,
       },
 
       {
-        path: "elixir",
+        path: "JS-RemoteFR-SACOD-P2-Vogue-Merry/elixir",
         element: <OngletElixir />,
       },
       {
-        path: "difficulty",
+        path: "JS-RemoteFR-SACOD-P2-Vogue-Merry/difficulty",
         element: <OngletLevel />,
       },
       {
-        path: "difficulty/:id",
+        path: "JS-RemoteFR-SACOD-P2-Vogue-Merry/difficulty/:id",
         element: <Jeu />,
       },
       {
-        path: "rules",
+        path: "JS-RemoteFR-SACOD-P2-Vogue-Merry/rules",
         element: <Rules />,
       },
       {
-        path: "leaderboard",
+        path: "JS-RemoteFR-SACOD-P2-Vogue-Merry/leaderboard",
         element: <Leaderboard />,
       },
     ],

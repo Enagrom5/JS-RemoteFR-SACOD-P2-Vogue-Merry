@@ -14,7 +14,7 @@ function ErrorPage() {
         <i>{error.error.message || "Erreur"}</i>
         <i>Status: {error.status && error.status}</i>
       </p>
-      <Link to="/">
+      <Link to="/JS-RemoteFR-SACOD-P2-Vogue-Merry/">
         <button
           type="button"
           className="bg-purple-heart-300 rounded-lg p-2 border border-black hover:bg-purple-600 hover:text-white transition"
