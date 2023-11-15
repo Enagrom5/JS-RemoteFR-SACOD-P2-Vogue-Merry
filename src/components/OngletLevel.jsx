@@ -7,10 +7,10 @@ function OngletLevel() {
         <Link to="easy">
           <button type="button">EASY</button>
         </Link>
-        <Link to="/JS-RemoteFR-SACOD-P2-Vogue-Merry/medium">
+        <Link to="medium">
           <button type="button">MEDIUM</button>
         </Link>
-        <Link to="/JS-RemoteFR-SACOD-P2-Vogue-Merry/hard">
+        <Link to="hard">
           <button type="button">HARD</button>
         </Link>
       </div>
