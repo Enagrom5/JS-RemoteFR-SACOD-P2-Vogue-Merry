@@ -4,7 +4,7 @@ function OngletLevel() {
   return (
     <div className="container-accueil">
       <div className="levelButton">
-        <Link to="/JS-RemoteFR-SACOD-P2-Vogue-Merry/easy">
+        <Link to="easy">
           <button type="button">EASY</button>
         </Link>
         <Link to="/JS-RemoteFR-SACOD-P2-Vogue-Merry/medium">
