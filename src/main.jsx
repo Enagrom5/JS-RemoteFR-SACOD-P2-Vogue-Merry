@@ -21,23 +21,23 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "JS-RemoteFR-SACOD-P2-Vogue-Merry/elixir",
+        path: "/JS-RemoteFR-SACOD-P2-Vogue-Merry/elixir",
         element: <OngletElixir />,
       },
       {
-        path: "JS-RemoteFR-SACOD-P2-Vogue-Merry/difficulty",
+        path: "/JS-RemoteFR-SACOD-P2-Vogue-Merry/difficulty",
         element: <OngletLevel />,
       },
       {
-        path: "JS-RemoteFR-SACOD-P2-Vogue-Merry/difficulty/:id",
+        path: "/JS-RemoteFR-SACOD-P2-Vogue-Merry/difficulty/:id",
         element: <Jeu />,
       },
       {
-        path: "JS-RemoteFR-SACOD-P2-Vogue-Merry/rules",
+        path: "/JS-RemoteFR-SACOD-P2-Vogue-Merry/rules",
         element: <Rules />,
       },
       {
-        path: "JS-RemoteFR-SACOD-P2-Vogue-Merry/leaderboard",
+        path: "/JS-RemoteFR-SACOD-P2-Vogue-Merry/leaderboard",
         element: <Leaderboard />,
       },
     ],
