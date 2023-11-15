@@ -34,7 +34,7 @@ function Victory({ result, score }) {
         <h1 className="text-center">Victory!</h1>
         <p>Your score is {score}</p>
         <p>Your highest score is {bestScore}!</p>
-        <Link to="/difficulty">
+        <Link to="/JS-RemoteFR-SACOD-P2-Vogue-Merry/difficulty">
           <button
             type="button"
             className="flex bg-purple-heart-300 rounded-2xl text-black px-14 h-full justify-center items-center z-10 text-3xl hover:bg-purple-heart-800 transition"
@@ -49,7 +49,7 @@ function Victory({ result, score }) {
     <div className="flex flex-col items-center ">
       <p>Game Over!</p>
       {bestScore && <p>Your highest score is {bestScore}</p>}
-      <Link to="/difficulty">
+      <Link to="/JS-RemoteFR-SACOD-P2-Vogue-Merry/difficulty">
         <button
           type="button"
           className="flex bg-purple-heart-300 rounded-2xl text-black px-14 h-full justify-center items-center z-10 text-3xl hover:bg-purple-heart-800 transition"

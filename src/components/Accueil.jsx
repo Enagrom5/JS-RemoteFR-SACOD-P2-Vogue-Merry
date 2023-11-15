@@ -5,17 +5,17 @@ function Accueil() {
     <div className="container-accueil">
       <img
         className="grand-logo"
-        src="../src/assets/grand_logo.png"
+        src="/JS-RemoteFR-SACOD-P2-Vogue-Merry/assets/grand_logo.png"
         alt="grand_logo"
       />
 
       <div className="buttons">
-        <Link to="difficulty">
+        <Link to="/JS-RemoteFR-SACOD-P2-Vogue-Merry/difficulty">
           <button className="play transition" type="button">
             PLAY
           </button>
         </Link>
-        <Link to="rules">
+        <Link to="/JS-RemoteFR-SACOD-P2-Vogue-Merry/rules">
           <button className="rules transition" type="button">
             RULES
           </button>
